@@ -8,6 +8,7 @@ Autonomous Navigation of UAV using Q-Learning (Reinforcement Learning).
 
 <b>Indoor Path Planning and Navigation</b> of an Unmanned Aerial Vehicle (UAV) based on <b>PID + Q-Learning algorithm (Reinforcement Learning)</b>. The quadrotor maneuvers towards the goal point, along the uniform grid distribution in the gazebo simulation environment(<strong>discrete action space</strong>) based on the specified reward policy, backed by the simple position based PID controller.
 
+This project was developed at the <a href="https://sites.google.com/site/compintellab/home/uavla"><b>Advanced Flight Simulation(AFS) Laboratory, IISc, Bangalore</b></a>.
 <p align= "center">
 <img src="Q-Learning/drone_qlearning.gif/">
 </p>
@@ -21,9 +22,10 @@ Autonomous Navigation of UAV using Q-Learning (Reinforcement Learning).
 - <b><a href="https://www.tensorflow.org/install/">TensorFLow 1.1.0 (preferrable with GPU support)</a></b>
 - <b>Python: 2.7</b>
 
-**<a href="https://goo.gl/zKNQdW">Project Video</a>**
+
 
 ## DDPG.py 
 Deep Deterministic Policy Gradient algorithm is used for autonomous navigation of UAV from start to goal position. This is applicable for continuous action-space domain. (Under development!)
 
-
+### Collaborator(s):
+**<a href="https://github.com/ioarun">Arun Kumar</a>**
